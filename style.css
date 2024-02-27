@@ -1,0 +1,9 @@
+@import url('./variables.css');
+@import url('modules/Header/Header.css');
+@import url('modules/Footer/Footer.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
