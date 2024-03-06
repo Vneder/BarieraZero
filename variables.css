@@ -1,7 +1,10 @@
 :root {
+    /* COLORS */
     --main-color: #ffffff;
     --second-color: #6f558e;
     --font-color: #000000;
-}
 
-/* Plik css do dodawania zmiennych np. kolorów, wielkości */
+    /* FONTS */
+    --main-font: Tahoma, sans-serif;
+    --second-font: Arial, sans-serif;
+}
