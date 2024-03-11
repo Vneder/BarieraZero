@@ -10,72 +10,106 @@
 
 <body>
   <header class="header">
-      <nav class="navbar">
-        <img src="" alt="Logo" class="logo__img">
-          <div class="menu">
-            <ul>
-              <li><a href="#">Strona główna</a></li>
-              <li><a href="#">Poradnik komunikacyjny</a></li>
-              <li><a href="#">O nas</a></li>
-            </ul>
-        </div>
-      <div class="search">
-        <label for="site-search">Search the information:</label>
-      <input type="search" id="" name="search" placeholder="Type here" />
-      <button>Search</button> 
+    <nav class="navbar">
+      <img src="./img/logo-removebg-preview.png" alt="Logo" class="logo__img">
+      <div class="menu">
+        <ul>
+          <li><a href="#">Strona główna</a></li>
+          <li><a href="#">Poradnik komunikacyjny</a></li>
+          <li><a href="#">O nas</a></li>
+        </ul>
+      </div>
+      <div class="accessibility">
+        <!-- <label for="site-search">szukaj:</label>
+        <input type="search" id="" name="search" placeholder="Wyszukaj" />
+        <button>Search</button> -->
+        [MODUŁ Z FUNKCJONALNOŚCIĄ DOSTĘPNOŚCI]
       </div>
     </nav>
-</header>
+  </header>
 
   <main class="main">
     <section class="section-content">
-      <h3>W grupie siła eliminująca bariery!</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia officiis amet, obcaecati explicabo in sapiente minima omnis quisquam similique aperiam, blanditiis suscipit commodi pariatur minus corrupti exercitationem porro ad, eos ipsa ipsam architecto? Eligendi dolores culpa optio ad, placeat dignissimos est vitae, autem, porro reiciendis suscipit nostrum nobis iusto voluptas quibusdam. Sed provident, adipisci dolores deleniti officia voluptatum ea quos iure enim a vitae dolor ex excepturi voluptatem eaque tempore vero alias quae fuga, vel mollitia labore nobis ab quo? Dicta debitis magni eligendi sunt ullam sapiente minus optio aliquam nihil nostrum dolores, et corporis voluptates, corrupti possimus eum.</p>
-      <img src="" alt="zdjęcie silnych ludzi">
+      <h5>W grupie siła eliminująca bariery!</h5>
+      <p>Jesteśmy grupą, która troszczy się o potrzeby i wsparcie osób z niepełnosprawnościami. Nasza społeczność jest
+        otwarta dla wszystkich,
+        którzy poszukują informacji, wsparcia lub chcą się angażować w działania na rzecz integracji</p>
+      <h5> Dlaczego warto być z nami?</h5>
+      <p>
+        Wsparcie i zrozumienie: Tutaj każdy jest mile widziany
+        Zapewniamy atmosferę pełną zrozumienia, wsparcia i empatii.
+        Wydarzenia i aktywności: Organizujemy spotkania,wykłady i wiele innych wydarzeń,
+        które mogą Cię zainteresować i inspirować.
+      </p>
     </section>
 
-    <section class="section-gallery">
-      <h3>Aktualności ze świata</h3>
+    <section class="section__swiper">
+      <h3>Nadchodzące wydarzenia</h3>
+      <div class="swiper__collection">
+        <div class="swiper--item">
+          <h3 class="event-name">Koncert</h3>
+          <img src="./img/event2.jpg" alt="" class="event-image1">
+        </div>
+        <div class="swiper--item_featured">
+          <h3 class="event-name">Piknik</h3>
+          <img src="./img/event3.png" alt="" class="event-image">
+        </div>
+        <div class="swiper--item">
+          <!-- <h3 class="event-name">Talent Days</h3> -->
+          <img src="./img/event1.png" alt="" class="event-image">
+        </div>
+      </div>
     </section>
-   
+
+    <section class="partners">
+      <h1 class="partners__title">Partnerzy Bariery Zero</h1>
+      <div class="partners-gallery">
+        <div class="partner-item"><img src="https://picsum.photos/150/150" alt="zdjęcie silnych ludzi"></div>
+        <div class="partner-item"><img src="https://picsum.photos/150/150" alt="zdjęcie silnych ludzi"></div>
+        <div class="partner-item"><img src="https://picsum.photos/150/150" alt="zdjęcie silnych ludzi"></div>
+        <div class="partner-item"><img src="https://picsum.photos/150/150" alt="zdjęcie silnych ludzi"></div>
+        <div class="partner-item"><img src="https://picsum.photos/150/150" alt="zdjęcie silnych ludzi"></div>
+        <div class="partner-item"><img src="https://picsum.photos/150/150" alt="zdjęcie silnych ludzi"></div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="footer">
-    <!-- Nazwy klasy napisane w metodologi BEM - Poradnik: https://devpebe.com/2019/05/31/metodologia-bem-jak-pisac-dobry-kod-css-praktyczne-przyklady/ -->
-    
-    <footer class="footer">
-      <div class="footer_columns">
-          <div class="footer_section">
-              <h4 class="footer-title">Company</h4>
-              <a href="#">Homepage</a>
-              <a href="#">About Us</a>
-              <a href="#">FAQ</a>
-              <a href="#">Term of Service</a>
-          </div>
-          
-          <h3 class="footer__text"></h3>
+    <div class="footer_columns">
+      <div class="footer_section">
+        <h4 class="footer-title">Bariera Zero</h4>
+        <a href="#">Strona główna</a>
+        <a href="#">O nas</a>
+        <a href="#">FAQ</a>
+      </div>
 
-          <div class="footer_section">
-              <h4 class="footer-title">Address</h4>
-             <p>Ulica poziomkowa 14</p>
-             <p>00-000 Hogward</p>
-             <p>Poland</p>
-          </div>
-          </div>
-          <div class="footer_socials">
-             <a href="#">
-              <img src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136_640.png" class="socials" alt="ins">
-             </a>
-             <a href="#">
-              <img src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746_640.png" class="socials" alt="fb">
-             </a>
-             <a href="#">
-              <img src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277_640.png"  class="socials" alt="yt">
-             </a>
-          </div>
-    
+      <div class="footer_socials">
+        <a href="#">
+          <img src="https://cdn.pixabay.com/photo/2016/08/01/21/00/icon-1562136_640.png" class="socials" alt="ins">
+        </a>
+        <a href="#">
+          <img src="https://cdn.pixabay.com/photo/2017/06/22/06/22/facebook-2429746_640.png" class="socials" alt="fb">
+        </a>
+        <a href="#">
+          <img src="https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277_640.png" class="socials" alt="yt">
+        </a>
+      </div>
+
+      <address class="footer_section">
+        <h4 class="footer-title">Address</h4>
+        <p>Ulica Aleksandra Ostrowskiego 22</p>
+        <p>530238 Hogward</p>
+        <p>Polska</p>
+      </address>
+
+    </div>
+
+    <h3 class="footer__text"></h3>
+
   </footer>
   <script type="module" src="/main.js"></script>
+  <script src="https://kit.fontawesome.com/53aff9a915.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

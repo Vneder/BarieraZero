@@ -1,0 +1,15 @@
+.partners {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.partners__title {
+    color: var(--font-color);
+    text-align: center;
+}
+
+.partners-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}

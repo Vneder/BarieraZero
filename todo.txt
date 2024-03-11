@@ -1,0 +1,5 @@
+- Wszystkie section zmodyfikować jednolicie (section do każdej sekcji a później jej nazwę)
+- rem em
+- Podstrony
+- Kolory ogarnąć
+- Zorganizować dostępność

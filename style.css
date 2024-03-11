@@ -1,5 +1,7 @@
 @import url('./variables.css');
 @import url('modules/Header/Header.css');
+@import url('modules/Partners/Partners.css');
+@import url('modules/Swiper/Swiper.css');
 @import url('modules/Footer/Footer.css');
 
 * {
@@ -7,31 +9,25 @@
   margin: 0;
   padding: 0;
 }
- 
+
 
 body {
   font-family: var(--main-font);
   color: var(--main-color);
+  min-height: 100vh;
 }
 
-section.section-content{
+section.section-content {
   display: flex;
-  font-size:25px;
+  font-size: 25px;
   align-items: center;
-  color: var(--main-color);
-  background-color: black;
+  color: var(--font-color);
+  background-color: var(--drugi-color);
   padding: 0px 55px;
 
 }
 
-.section-content p{
+.section-content p {
   font-size: 20px;
   margin: 130px;
-}
-
-
-.section-gallery{
-  color: black;
-  font-size: 20px;
-  text-align: center;
 }
