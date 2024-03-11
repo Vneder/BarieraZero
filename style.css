@@ -7,8 +7,31 @@
   margin: 0;
   padding: 0;
 }
+ 
 
 body {
   font-family: var(--main-font);
   color: var(--main-color);
+}
+
+section.section-content{
+  display: flex;
+  font-size:25px;
+  align-items: center;
+  color: var(--main-color);
+  background-color: black;
+  padding: 0px 55px;
+
+}
+
+.section-content p{
+  font-size: 20px;
+  margin: 130px;
+}
+
+
+.section-gallery{
+  color: black;
+  font-size: 20px;
+  text-align: center;
 }
