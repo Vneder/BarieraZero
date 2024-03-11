@@ -3,13 +3,11 @@
      BarieraZero
   </p>
 </h1>
-
 - [Live](#live)
 - [Technologies](#technologies)
 - [General info](#general-info)
 
 ## Live
-
 <h3> https://vneder.github.io/BarieraZero/ </h3>
 
 ## Technologies
