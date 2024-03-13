@@ -1,0 +1,10 @@
+.section__aboutUs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 48px;
+    font-size: 24px;
+    color: var(--font-color);
+    background-color: var(--drugi-color);
+    padding: 24px 96px;
+}

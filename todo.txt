@@ -1,9 +1,13 @@
-- Wszystkie section zmodyfikować jednolicie (section do każdej sekcji a później jej nazwę)
-- rem em i responsywność
-- Podstrony
+- Treści podstron
 - Kolory ogarnąć
-- Zorganizować dostępność
-- Naprawić szerokość stronki
-- swiper
 - Ikonki ujednolicic i naprawic
-- Ikonka logo ma przenosić na główną stronę
+
+- rem em i responsywność
+
+- Zorganizować dostępność
+    - Powiększenie i zmniejszenie rozmiary tekstu
+    - Wysoki kontrast
+    - Zwiększenie czytelności (pogrubienie i zwiększenie odstępu między literami)
+    - Reset do wyzerowania
+
+- swiper

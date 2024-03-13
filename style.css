@@ -1,7 +1,9 @@
-@import url('./variables.css');
+@import url('utils/variables.css');
 @import url('modules/Header/Header.css');
-@import url('modules/Partners/Partners.css');
+@import url('modules/Content/Content.css');
 @import url('modules/Swiper/Swiper.css');
+@import url('modules/Partners/Partners.css');
+@import url('modules/AboutUs/AboutUs.css');
 @import url('modules/Footer/Footer.css');
 
 * {
@@ -10,40 +12,14 @@
   padding: 0;
 }
 
-
 body {
   font-family: var(--main-font);
   color: var(--main-color);
-  min-height: 100vh;
 }
 
-.section-content {
+
+.main {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 24px;
-  color: var(--font-color);
-  background-color: var(--drugi-color);
-  padding: 24px 48px;
-
-}
-
-.section__content_title-paragraph {
-  font-size: 22px;
-  padding: 30px 70px;
-}
-
-.section__content_text {
-  font-size: 16px;
-  padding: 20px 60px;
-}
-
-.section__content_line {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.section__swiper-title {
-  font-size: 22px;
-  padding: 30px 70px;
+  flex-direction: column;
+  min-height: 75vh;
 }
