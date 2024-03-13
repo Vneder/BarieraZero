@@ -1,11 +1,9 @@
 .footer {
-    position: absolute;
+    display: flex;
 
     font-size: 30px;
-    width: 100vw;
     height: 250px;
 
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

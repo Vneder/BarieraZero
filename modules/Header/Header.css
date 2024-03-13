@@ -1,5 +1,5 @@
 header {
-    top: 0;
+    display: flex;
     height: auto;
     width: 100vw;
     font-size: 30px;

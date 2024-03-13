@@ -17,17 +17,33 @@ body {
   min-height: 100vh;
 }
 
-section.section-content {
+.section-content {
   display: flex;
-  font-size: 25px;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 24px;
   color: var(--font-color);
   background-color: var(--drugi-color);
-  padding: 0px 55px;
+  padding: 24px 48px;
 
 }
 
-.section-content p {
-  font-size: 20px;
-  margin: 130px;
+.section__content_title-paragraph {
+  font-size: 22px;
+  padding: 30px 70px;
+}
+
+.section__content_text {
+  font-size: 16px;
+  padding: 20px 60px;
+}
+
+.section__content_line {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section__swiper-title {
+  font-size: 22px;
+  padding: 30px 70px;
 }
