@@ -10,10 +10,6 @@
 
 }
 
-
-
-/* .section-paragraph{} */
-
 .section__content_title-paragraph {
     font-size: 24px;
     text-align: center;
@@ -28,4 +24,24 @@
 .section__content_text {
     font-size: 18px;
     padding: 20px 60px;
+}
+
+.section__blog {
+    color: var(--font-color);
+}
+
+.blog__line_left-img,
+.blog__line_right-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 1rem auto;
+    line-height: 200%;
+    font-size: 18px;
+}
+
+.blog__text {
+    max-width: 45%;
 }

@@ -1,13 +1,18 @@
-- Treści podstron
-- Kolory ogarnąć
-- Ikonki ujednolicic i naprawic
+- Treści podstron // in progress
+- logo partnerów
 
+*Do zrobienia na przyszłość*
+- ujednolicic stylowanie tekstów wydarzeń
+- Kolory ogarnąć // kod
+- favikonka
 - rem em i responsywność
+- swiper [ https://www.youtube.com/watch?v=MwQ_ikf8Bdc ]
 
-- Zorganizować dostępność
+! Zrobione !
+
+- Zorganizować dostępność             /done
     - Powiększenie i zmniejszenie rozmiary tekstu
     - Wysoki kontrast
     - Zwiększenie czytelności (pogrubienie i zwiększenie odstępu między literami)
     - Reset do wyzerowania
-
-- swiper
+- Ikonki ujednolicic i naprawic       /done
