@@ -45,3 +45,70 @@
 .blog__text {
     max-width: 45%;
 }
+
+.picnic_content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 10px;
+    gap: 48px;
+    font-size: 20px;
+    color: var(--font-color);
+    background-color: var(--drugi-color);
+    padding: 24px 96px;
+}
+
+.picnic_picture1{
+    width: 350px;
+    height:300px;
+}
+
+.picnic_picture2{
+    width: 550px;
+    height:350px;
+}
+
+.picnic_title{
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 25px;
+}
+
+.picnic_description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article_title{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+
+.picnic_end_Text{
+    text-align:justify;
+    font-size: 25px;
+    margin: 60px;
+    width: auto;
+}
+
+.picnic_end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.picnic_gretting{
+    font-size: 80%;
+    margin-bottom: 20px;
+}
+
+.picnic_name_team{
+    font-size: 75%;
+    font-weight:900;
+}
+
+.picnic_describe{
+    margin-top: 20px;
+}

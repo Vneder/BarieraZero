@@ -1,12 +1,15 @@
-- Treści podstron // in progress
-- logo partnerów
+- Podstrona Poradnik komunikacyjny
 
 *Do zrobienia na przyszłość*
+- teksty alternatywne do zdj
 - ujednolicic stylowanie tekstów wydarzeń
 - Kolory ogarnąć // kod
 - favikonka
 - rem em i responsywność
 - swiper [ https://www.youtube.com/watch?v=MwQ_ikf8Bdc ]
+- obsługa strony samą klawiaturą
+- czytanie tekstu przez lektora??
+- dodać partnerów do wydarzeń (losowo)
 
 ! Zrobione !
 
@@ -16,3 +19,4 @@
     - Zwiększenie czytelności (pogrubienie i zwiększenie odstępu między literami)
     - Reset do wyzerowania
 - Ikonki ujednolicic i naprawic       /done
+- logo partnerów // done

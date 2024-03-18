@@ -1,0 +1,12 @@
+.button {
+    background: var(--button-color);
+    border: 1px solid #556699;
+    border-radius: 11px;
+    box-shadow: 0 3px #444444;
+    padding: 20px 45px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 15px/1 "Open Sans", sans-serif;
+    text-align: center;
+  }
+  
