@@ -1,6 +1,6 @@
 .section__swiper {
     color: black;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -8,23 +8,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 30px;
+    gap: 1.2em;
+    margin-bottom: 1.8em;
 }
 
 .swiper--item {
     border: 2px solid black;
-    border-radius: 24px;
+    border-radius: 1.5em;
     width: 20vw;
-    height: 300px;
+    height: 18.5em;
     aspect-ratio: 2 / 3;
 }
 
 .swiper--item_featured {
-    border: 2px solid black;
-    border-radius: 24px;
+    border: 0.12em solid black;
+    border-radius: 1.5em;
     width: 25vw;
-    height: 400px;
+    height: 25em;
     aspect-ratio: 2 / 3;
 }
 
@@ -39,7 +39,8 @@
 }
 
 .section__swiper-title {
-    font-size: 36px;
-    letter-spacing: 2px;
-    padding: 30px 70px;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+
+    padding: 1.8em 4.3em;
 }

@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    gap: 48px;
-    font-size: 24px;
+    gap: 2.8em;
+    font-size: 1.5rem;
     color: var(--font-color);
     background-color: var(--drugi-color);
-    padding: 24px 96px;
+    padding: 1.5em 6em;
 }
