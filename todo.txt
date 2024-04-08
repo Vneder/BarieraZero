@@ -1,15 +1,17 @@
-- Podstrona Poradnik komunikacyjny
-
 *Do zrobienia na przyszłość*
-- teksty alternatywne do zdj
+- Podstrona Poradnik komunikacyjny // Ukasz
+- rem em  // Jakuba
+
+- responsywność
+- strzałka ze scrollem na samym dole stronki
+- poradnik nie działa z talent daysa link
 - ujednolicic stylowanie tekstów wydarzeń
 - Kolory ogarnąć // kod
-- favikonka
-- rem em i responsywność
-- swiper [ https://www.youtube.com/watch?v=MwQ_ikf8Bdc ]
 - obsługa strony samą klawiaturą
 - czytanie tekstu przez lektora??
 - dodać partnerów do wydarzeń (losowo)
+- swiper [ https://www.youtube.com/watch?v=MwQ_ikf8Bdc ]
+- dodać przycisk powrotu na główną w zakładce o nas
 
 ! Zrobione !
 
@@ -20,3 +22,5 @@
     - Reset do wyzerowania
 - Ikonki ujednolicic i naprawic       /done
 - logo partnerów // done
+- favikonka
+- teksty alternatywne do zdj //Done

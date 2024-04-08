@@ -30,6 +30,21 @@
     color: var(--font-color);
 }
 
+.blog__line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 1rem auto;
+    line-height: 200%;
+    font-size: 18px;
+}
+
+.blog__text-subtitle {
+    font-size: 22px;
+}
+
 .blog__line_left-img,
 .blog__line_right-img {
     display: flex;
@@ -46,10 +61,10 @@
     max-width: 45%;
 }
 
-.picnic_content{
+.picnic_content {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 80px;
     gap: 48px;
     font-size: 20px;
@@ -59,46 +74,46 @@
     padding: 24px 96px;
 }
 
-.picnic_picture1{
+.picnic_picture1 {
     width: 400px;
-    height:500px;
-    
+    height: 500px;
+
 }
 
-.picnic_picture2{
+.picnic_picture2 {
     position: relative;
     top: 45px;
     width: 650px;
-    height:430px;
+    height: 430px;
 }
 
-.picnic_title{
+.picnic_title {
     text-align: center;
     font-size: 44px;
     margin-bottom: 25px;
 }
 
-.picnic_description{
+.picnic_description {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.article_title{
+.article_title {
     text-align: center;
     font-size: 34px;
     margin-bottom: 25px;
 }
 
 
-.picnic_end_Text{
-    text-align:justify;
+.picnic_end_Text {
+    text-align: justify;
     font-size: 23px;
-    
+
     width: auto;
 }
 
-.picnic_end{
+.picnic_end {
     display: flex;
     line-height: 150%;
     flex-direction: column;
@@ -108,15 +123,15 @@
 }
 
 
-.picnic_time{
+.picnic_time {
     display: flex;
     flex-direction: column;
     text-align: center;
     font-weight: normal;
-    margin: auto ;
+    margin: auto;
     line-height: 190%;
     background-color: var(--drugi-color);
-    border: 6px  ridge var(--font-color);
+    border: 6px ridge var(--font-color);
     width: 85%;
     padding: 10px;
 
@@ -124,18 +139,18 @@
 }
 
 
-.picnic_gretting{
+.picnic_gretting {
 
     font-size: 85%;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
-.picnic_name_team{
+.picnic_name_team {
     font-size: 85%;
-    font-weight:900;
+    font-weight: 900;
 }
 
-.picnic_describe{
+.picnic_describe {
     margin-top: 20px;
 }

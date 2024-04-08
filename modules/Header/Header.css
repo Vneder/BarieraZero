@@ -20,7 +20,7 @@ header {
 .menu ul {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 50px;
     list-style: none;
 }
 
