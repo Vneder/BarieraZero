@@ -50,22 +50,26 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin: 10px;
+    margin: 80px;
     gap: 48px;
     font-size: 20px;
     color: var(--font-color);
-    background-color: var(--drugi-color);
+    font-weight: normal;
+    line-height: 200%;
     padding: 24px 96px;
 }
 
 .picnic_picture1{
-    width: 350px;
-    height:300px;
+    width: 400px;
+    height:500px;
+    
 }
 
 .picnic_picture2{
-    width: 550px;
-    height:350px;
+    position: relative;
+    top: 45px;
+    width: 650px;
+    height:430px;
 }
 
 .picnic_title{
@@ -89,23 +93,46 @@
 
 .picnic_end_Text{
     text-align:justify;
-    font-size: 25px;
-    margin: 60px;
+    font-size: 23px;
+    
     width: auto;
 }
 
 .picnic_end{
     display: flex;
+    line-height: 150%;
     flex-direction: column;
-    justify-content: flex-start;
+
+    color: var(--font-color);
+    margin: 1.8em 300px;
 }
+
+
+.picnic_time{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: normal;
+    margin: auto ;
+    line-height: 190%;
+    background-color: var(--drugi-color);
+    border: 6px  ridge var(--font-color);
+    width: 85%;
+    padding: 10px;
+
+    color: var(--font-color);
+}
+
+
 .picnic_gretting{
-    font-size: 80%;
+
+    font-size: 85%;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .picnic_name_team{
-    font-size: 75%;
+    font-size: 85%;
     font-weight:900;
 }
 
