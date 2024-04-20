@@ -1,0 +1,99 @@
+@media only screen and (width <= 430px) {
+    
+     
+
+   header{
+      display: flex;
+      align-items: center;
+   }
+   
+   .logo__img{
+       width: 15rem;
+   }
+
+   .navbar{
+       
+       display: flex;;
+       flex-direction: column;
+       margin: 3.7em 0;
+       padding: 1.3em;
+             
+   }
+
+   .menu {
+      display: flex;
+      justify-content: center;
+      padding: 0.5em;
+      width:  118%;
+      
+     
+   }
+    .menu a  {
+      display: flex;
+      font-size: 1.1rem  !important;
+   }
+
+
+
+.footer{
+  height: 40vh;
+  font-size: 80% !important;
+
+}
+
+.footer__columns{
+   display: flex;
+   flex-direction:row;
+   margin: 3rem 0;
+  
+}
+
+.footer__socials{
+   position: relative;
+   top: 8em;
+} 
+
+
+.footer__section-tree,
+.footer__section-adress {
+   text-align: center;
+   overflow-wrap:break-word ;
+   width: 110%;
+   display: flex;
+   gap: 0.4em;
+
+}
+.footer__section-tree{
+   margin-left: 1.4rem;
+}
+
+.footer__section-adress{
+   margin-right: 1.4rem;
+}
+
+.footer__section-adress p{
+   font-size: 90% !important;
+}
+
+.footer__section-title{
+margin-bottom: 1.6rem;
+font-size: 90% !important;
+}
+
+
+.footer__section-link{
+   
+   font-size: 90% !important;
+}
+
+.footer__socials{
+   width: 20%;
+   
+   
+}
+
+.socials-icon{
+   width: 2,5em;
+}
+
+}

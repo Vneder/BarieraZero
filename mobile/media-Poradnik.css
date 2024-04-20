@@ -1,0 +1,52 @@
+@media only screen and (width <= 430px) {
+   
+   
+   
+   .section__blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+ 
+   }
+   
+    .section__content h2{
+   
+        font-size: 1.2em !important;
+        text-align: center;
+        padding: 0.8em 0em;
+}
+
+
+
+    .blog__line_left-img{
+        display: flex;
+        flex-direction:column;
+        font-size: 1.2rem !important;
+    }
+
+    .blog__line_left-img img{
+        width: 19em;
+        height: 23.5em;
+        border: 5px solid black;
+
+    }
+
+    .place{
+        text-align: center;
+    }
+
+
+    main a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin: 0.8em;
+    }
+
+
+   
+
+}
+
+ 

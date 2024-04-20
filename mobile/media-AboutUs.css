@@ -1,0 +1,32 @@
+@media only screen and (width <= 430px) {
+    .section__aboutUs {
+        padding: 1.4em;
+        display: flex;
+        align-items: center;
+    }
+
+    .section__aboutUs h1 ,h2 {
+        font-size: 110% !important;
+        text-align: center;
+    }
+
+
+    .section__aboutUs p {
+        font-size: 90% !important;
+    }
+
+    .section__aboutUs li {
+        font-size: 85% !important;
+    }
+
+    .button{
+        width: 12rem;
+        padding: 1.2em;
+        
+    }
+
+    .footer__text{
+        margin-top: 2.5em;
+    }
+
+}
