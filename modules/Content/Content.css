@@ -6,8 +6,40 @@
     font-size: 1.5rem;
     color: var(--font-color);
     background-color: var(--drugi-color);
-    padding: 1.5rem 6rem;
+    padding: 3rem 6rem;
+}
 
+.section__blog {
+    color: var(--font-color);
+    margin-bottom: 2rem;
+}
+
+.blog__line_left-img,
+.blog__line_right-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4rem 6rem;
+    line-height: 200%;
+    font-size: 1.2rem;
+}
+
+.blog__text {
+    max-width: 45%;
+}
+
+.picnic_time,
+.blog__event-time {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 350%;
+    background-color: var(--drugi-color);
+    border-radius: 2rem;
+    padding: 2rem 4rem;
+    color: var(--font-color);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .section__content_title-paragraph {
@@ -24,15 +56,14 @@
 .section__content_text {
     font-size: 1.3rem;
     padding: 1.2em 6em;
+    line-height: 150%;
 }
 
-.section__blog {
-    color: var(--font-color);
-}
 
 .blog__line {
     display: flex;
     flex-direction: column;
+    /* /\ To jest różnica co do left right img  */
     justify-content: center;
     align-items: center;
     gap: 4rem;
@@ -46,109 +77,21 @@
 }
 
 
-.blog__line_left-img,
-.blog__line_right-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    margin: 1rem auto;
-    line-height: 200%;
-    font-size: 1.2rem;
-}
-
-.blog__text {
-    max-width: 45%;
-}
-
-.picnic_content{
-display: flex;
-flex-direction: row;
-justify-content:space-between;
-margin: 5em;
-gap: 2.7em;
-font-size: 1.2rem;
-color: var(--font-color);
-font-weight: normal;
-line-height: 200%;
-padding: 1.4em 6.3em;
-}
-
-.picnic_picture1{
-width: 25em;
-height:31.2em;
+.picnic_picture1 {
+    width: 25em;
+    height: 31.2em;
 
 }
 
-.picnic_picture2{
-position: relative;
-top: 2.8em;
-width: 40.5em;
-height:26.7em;
+.picnic_picture2 {
+    position: relative;
+    top: 2.8em;
+    width: 40.5em;
+    height: 26.7em;
 }
 
-.picnic_title{
-text-align: center;
-font-size: 7.3rem;
-margin-bottom: 1.5em;
-}
-
-.picnic_description{
-display: flex;
-align-items: center;
-flex-direction: column;
-}
-
-.article_title{
-text-align: center;
-font-size: 1.5rem;
-margin-bottom: 1.5em;
-}
-
-.picnic_end_Text{
-text-align:justify;
-font-size: 1.4rem;
-
-width: auto;
-}
-
-.picnic_end{
-display: flex;
-line-height: 150%;
-flex-direction: column;
-
-color: var(--font-color);
-margin: 1.8em 15.5em;
-}
-
-.picnic_time{
-display: flex;
-flex-direction: column;
-text-align: center;
-font-weight: normal;
-margin: auto ;
-line-height: 190%;
-background-color: var(--drugi-color);
-border: 0.3em  ridge var(--font-color);
-width: 85%;
-padding: 0.6em;
-
-color: var(--font-color);
-}
-
-.picnic_gretting{
-
-font-size: 120%;
-margin-bottom: 1.2em;
-margin-top: 3.1em;
-}
-
-.picnic_name_team{
-font-size: 120%;
-font-weight:900;
-}
-
-.picnic_describe{
-margin-top: 1.2em;
+.article_title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
 }

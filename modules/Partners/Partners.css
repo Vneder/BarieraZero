@@ -5,14 +5,14 @@
 
 .partners__title {
     color: var(--font-color);
-    margin: 1.5em auto;
+    margin: 1em auto;
     text-align: center;
 }
 
 .partners-gallery {
+    padding: 0 8rem;
     display: flex;
-    justify-content: center;
-    gap: 8%;
+    gap: 4%;
 }
 
 .partner-item-img {

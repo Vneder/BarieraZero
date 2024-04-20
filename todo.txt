@@ -1,17 +1,17 @@
 *Do zrobienia na przyszłość*
-- Podstrona Poradnik komunikacyjny // Ukasz
+- Podstrona Poradnik komunikacyjny (Zdjęcia i centralne divy) // Ukasz
+
 - rem em  // Jakuba
 
+- Kolory ogarnąć // kod
+- ujednolicic wysokości partnerów w wydarzeniach i indexie
+- Dwa zdjęcia do piknika
+- O nas trochę urozmaicić
 - responsywność
 - strzałka ze scrollem na samym dole stronki
-- poradnik nie działa z talent daysa link
-- ujednolicic stylowanie tekstów wydarzeń
-- Kolory ogarnąć // kod
 - obsługa strony samą klawiaturą
 - czytanie tekstu przez lektora??
-- dodać partnerów do wydarzeń (losowo)
 - swiper [ https://www.youtube.com/watch?v=MwQ_ikf8Bdc ]
-- dodać przycisk powrotu na główną w zakładce o nas
 
 ! Zrobione !
 
@@ -24,3 +24,7 @@
 - logo partnerów // done
 - favikonka
 - teksty alternatywne do zdj //Done
+- dodać przycisk powrotu na główną w zakładce o nas
+- dodać partnerów do wydarzeń (losowo)
+- ujednolicic stylowanie tekstów wydarzeń
+- poradnik nie działa z wydarzen (link)

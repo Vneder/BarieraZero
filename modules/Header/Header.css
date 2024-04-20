@@ -9,23 +9,24 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.2em 1.6em;
     align-items: center;
+    padding: 1em 1.6em;
     font-size: 1.2rem;
     width: 100%;
+    margin-right: 8rem;
 }
 
 .menu ul {
     display: flex;
     flex-direction: row;
-    gap: 1.5em;
+    gap: 4em;
     list-style: none;
 }
 
 .menu a {
     text-decoration: none;
     color: var(--main-color);
-    transition: 0.5s ease;
+    transition: 0.3s ease;
 
 }
 
@@ -34,13 +35,7 @@ header {
 
 }
 
-nav.navbar div.search {
-    display: flex;
-    align-items: center;
-    gap: 0.6em;
-    font-size: 80%;
-}
-
 .logo__img {
     width: 14em;
+    margin-left: 8rem;
 }

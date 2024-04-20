@@ -1,10 +1,10 @@
 .footer {
     display: flex;
+    min-height: 240px;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-
     background-color: var(--second-color);
-
 }
 
 .footer__columns {
