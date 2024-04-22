@@ -4,14 +4,12 @@
 - rem em  // Jakuba
 
 - Kolory ogarnąć // kod
-- ujednolicic wysokości partnerów w wydarzeniach i indexie
 - Dwa zdjęcia do piknika
-- O nas trochę urozmaicić
+- ujednolicic wysokości partnerów w wydarzeniach i indexie
+- swiper [ https://www.youtube.com/watch?v=MwQ_ikf8Bdc ]
 - responsywność
-- strzałka ze scrollem na samym dole stronki
 - obsługa strony samą klawiaturą
 - czytanie tekstu przez lektora??
-- swiper [ https://www.youtube.com/watch?v=MwQ_ikf8Bdc ]
 
 ! Zrobione !
 
@@ -28,3 +26,7 @@
 - dodać partnerów do wydarzeń (losowo)
 - ujednolicic stylowanie tekstów wydarzeń
 - poradnik nie działa z wydarzen (link)
+- strzałka ze scrollem na samym dole stronki
+- O nas trochę urozmaicić
+- dodac mapke do "o nas" na uczelnie
+- poprawic te cienie do zdj

@@ -2,7 +2,7 @@
 <html lang="pl">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
   <link rel="stylesheet" href="../style.css">
@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+  <img src="../img/top.png" alt="Arrow to top" class="arrow" id="myBtn" title="Go to top">
   <header class="header">
     <nav class="navbar">
       <a href="../index.html">
@@ -31,13 +33,16 @@
       <h2>Komunikacja bez ograniczeń dla każdego!</h2>
     </section>
     <section class="section__blog">
-      <!-- Taki wstęp wycentrowany fajnie -->
-      <p> Prowadzenie samodzielnego życia w mieście może być wyzwaniem dla osób z niepełnosprawnością, jednak
-        istnieją
-        liczne sposoby, aby ułatwić poruszanie się i zapewnić dostępność do różnych miejsc. Ten poradnik oferuje
-        praktyczne wskazówki i strategie, które mogą pomóc w bezpiecznym i efektywnym przemieszczaniu się po
-        mieście.
-      </p>
+
+      <div class="blog__line_right-img">
+        <p class="underline-paragraph">
+          Prowadzenie samodzielnego życia w mieście może być wyzwaniem dla osób z niepełnosprawnością, jednak
+          istnieją
+          liczne sposoby, aby ułatwić poruszanie się i zapewnić dostępność do różnych miejsc. Ten poradnik oferuje
+          praktyczne wskazówki i strategie, które mogą pomóc w bezpiecznym i efektywnym przemieszczaniu się po
+          mieście.
+        </p>
+      </div>
 
       <div class="blog__line_left-img">
         <img src="../img/concert3.jpg" alt="" width="20%">
@@ -140,10 +145,14 @@
       </div>
 
       <!-- Fajnie wycentrowany tekst tak jak na początku -->
-      <div>
-        <h1>Podsumowanie</h1>
-        <br>
-        <p>
+      <div class="blog__line_right-img">
+        <h1 class="underline-paragraph">
+          Podsumowanie
+        </h1>
+      </div>
+
+      <div class="blog__line_right-img">
+        <p class="underline-paragraph">
           Pomimo pewnych wyzwań, poruszanie się po mieście dla osób z niepełnosprawnościami może być
           satysfakcjonujące
           i
@@ -154,7 +163,6 @@
           mógł
           cieszyć się pełnią życia w mieście.
         </p>
-        <br>
       </div>
 
       <a href="../index.html"><button class="button">Wróć na Stronę główną</button></a>

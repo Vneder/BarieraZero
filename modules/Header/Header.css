@@ -38,4 +38,5 @@ header {
 .logo__img {
     width: 14em;
     margin-left: 8rem;
+    box-shadow: none;
 }

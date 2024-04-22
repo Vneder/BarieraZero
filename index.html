@@ -2,7 +2,7 @@
 <html lang="pl">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
   <link rel="stylesheet" href="style.css">
@@ -11,7 +11,10 @@
 </head>
 
 <body>
-  <header class="header">
+
+  <img src="./img/top.png" alt="Arrow to top" class="arrow" id="myBtn" title="Go to top">
+
+  <header class="header" id="return-to-top">
     <nav class="navbar">
       <a href="index.html">
         <img src="./img/logo-removebg-preview.png" alt="Logo z tarczą" class="logo__img">
@@ -101,8 +104,8 @@
       <div class="footer__section-tree">
         <h4 class="footer__section-title">Bariera Zero</h4>
         <a href="#" class="footer__section-link">Strona główna</a>
+        <a href="#" class="footer__section-link">Poradnik Komunikacyjny</a>
         <a href="#" class="footer__section-link">O nas</a>
-        <a href="#" class="footer__section-link">FAQ</a>
       </div>
 
       <div class="footer__socials">
@@ -140,9 +143,10 @@
     <p class="footer__text"></p>
 
   </footer>
-  <script type="module" src="/main.js"></script>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/53aff9a915.js" crossorigin="anonymous"></script>
   <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
+  <script type="module" src="/main.js"></script>
 </body>
 
 </html>
