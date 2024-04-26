@@ -1,5 +1,7 @@
 import './modules/Footer/Footer.js';
 
+
+// SCROLL ON TOP
 let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function () { scrollFunction() };
@@ -26,3 +28,5 @@ function topFunction() {
 mybutton.addEventListener("click", function () {
     topFunction();
 });
+
+// CZYTANIE ZE ZDJĘĆ

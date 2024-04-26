@@ -48,3 +48,27 @@ img {
   box-shadow: none;
   transition: 0.5s ease-in-out;
 }
+
+.imgVoice {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.voiceSpeaker {
+  position: absolute;
+  top: 0;
+  /* W przypadku problemu usuniemy lefta i bedzie git */
+  left: 25%;
+  border: none;
+  padding: 0;
+  margin: 4px;
+  background: none;
+  cursor: pointer;
+
+}
+
+.noShadow {
+  box-shadow: none;
+}
