@@ -45,7 +45,15 @@
       </div>
 
       <div class="blog__line_left-img">
-        <img src="../img/concert3.jpg" alt="" width="20%">
+        <div class="imgVoice">
+          <!-- ZDJĘCIE PRAWO-->
+          <img src="../img/Woman_in_bus-8722148.png" alt="Kobieta siedząca naprzeciwko na wózku inwalidzkim"
+          class="size_picture1">
+          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
+              <img src="../img/voice.png" class="noShadow"
+                  onclick="responsiveVoice.speak('Kobieta w autobusie trzymająca się za poręcz', 'Polish Female');">
+          </button>
+      </div>
         <div class="blog__text">
           <li>
             <h2>Zaplanuj trasę z wyprzedzeniem</h2>
@@ -110,11 +118,27 @@
             <br>
           </li>
         </div>
-        <img src="../img/concert3.jpg" alt="" width="20%">
+        <div class="imgVoice">
+          <!-- ZDJĘCIE PRAWO-->
+          <img src="../img/blind_men_withDog.png" alt="Kobieta siedząca naprzeciwko na wózku inwalidzkim"
+          class="size_picture1">
+          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
+              <img src="../img/voice.png" class="noShadow"
+                  onclick="responsiveVoice.speak('Mężczyzna niedowidzący w ciemnych okularach i psem przewodnikiem idący przez ulice' , 'Polish Female');">
+          </button>
+      </div>
       </div>
 
       <div class="blog__line_left-img">
-        <img src="../img/concert3.jpg" alt="" width="20%">
+        <div class="imgVoice">
+          <!-- ZDJĘCIE PRAWO-->
+          <img src="../img/Imagine Wheelchair Travel Thats Easy.jpg" alt="Kobieta siedząca naprzeciwko na wózku inwalidzkim"
+          class="size_picture1">
+          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
+              <img src="../img/voice.png" class="noShadow"
+                  onclick="responsiveVoice.speak('Kobieta  na wózku z przyczepionym z tyłu plecakiem na środku peronu', 'Polish Female');">
+          </button>
+      </div>
         <div class="blog__text">
           <li>
             <h2>Bądź czujny na otoczenie</h2>
@@ -219,6 +243,7 @@
   </footer>
 
   <script type="module" src="../main.js"></script>
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=ysmMbjcp"></script>
   <script src="https://kit.fontawesome.com/53aff9a915.js" crossorigin="anonymous"></script>
   <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
 </body>

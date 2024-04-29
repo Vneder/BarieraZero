@@ -4,39 +4,13 @@
     text-align: center;
 }
 
-.swiper__collection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.2em;
-    margin-bottom: 1.8em;
-}
-
-.swiper--item {
-    border: 2px solid black;
-    border-radius: 1.5em;
-    width: 20vw;
-    height: 18.5em;
-    aspect-ratio: 2 / 3;
-}
-
-.swiper--item_featured {
-    border: 0.12em solid black;
-    border-radius: 1.5em;
-    width: 25vw;
-    height: 25em;
-    aspect-ratio: 2 / 3;
-}
 
 .event-image {
-    width: auto;
-    height: 92%;
+    width: 19em;
+    height: 18em;
 }
 
-.event-image1 {
-    width: 98%;
-    height: auto;
-}
+
 
 .section__swiper-title {
     font-size: 2rem;
@@ -44,3 +18,18 @@
 
     padding: 1.8em 4.3em;
 }
+
+.swiper{
+    width: 50%;
+    height: 35em;
+}
+
+.swiper-slide{
+    font-size: 30px;
+}
+
+.swiper-slide a{
+   text-decoration: none;
+   color: black;
+}
+

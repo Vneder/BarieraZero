@@ -11,7 +11,8 @@
 
 .section__blog {
     color: var(--font-color);
-    margin-bottom: 2rem;
+    margin: 2rem 4rem;
+   
 }
 
 .blog__line_left-img,
@@ -20,10 +21,16 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 4rem 16rem;
+    margin: 4rem 10rem;
     line-height: 200%;
     font-size: 1.2rem;
 }
+
+
+.blog__text li {
+    list-style: none;   
+}
+
 
 .blog__text {
     max-width: 45%;
@@ -34,6 +41,7 @@
     font-size: 1.3rem;
     display: flex;
     flex-direction: column;
+    width: 65%;
     line-height: 350%;
     background-color: var(--drugi-color);
     border-radius: 2rem;
@@ -77,9 +85,15 @@
 }
 
 
-.picnic_picture1 {
-    width: 25em;
-    height: 31.2em;
+.size_picture1 {
+    width: 23.5em;
+    height: 33em;
+
+}
+
+.size_picture2 {
+    width:  24.5em;
+    height: 33em;
 
 }
 

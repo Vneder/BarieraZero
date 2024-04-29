@@ -1,4 +1,5 @@
 import './modules/Footer/Footer.js';
+import './modules/Swiper/swiper.js';
 
 
 // SCROLL ON TOP

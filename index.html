@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <title>Bariera Zero</title>
 
 </head>
@@ -56,25 +57,38 @@
 
     <section class="section__swiper">
       <h1 class="section__swiper-title">Nadchodzące wydarzenia</h1>
-      <div class="swiper__collection">
-        <a href="./subpages/concert.html">
-          <div class="swiper--item">
-            <h3 class="event-name">Koncert</h3>
-            <img src="./img/event2.jpg" alt="ludzie na koncercie" class="event-image1">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><a href="./subpages/concert.html">
+            <h3>Koncert</h3>
+            <img src="./img/event2v2.jpg" alt="ludzie na koncercie" class="event-image">
+            </a>
           </div>
-        </a>
-        <a href="./subpages/picnic.html">
-          <div class="swiper--item_featured">
-            <h3 class="event-name">Piknik</h3>
-            <img src="./img/event3.png" alt="piknik z innymi osobami" class="event-image">
+          <div class="swiper-slide">
+            <a href="./subpages/picnic.html">
+              <h3>Piknik</h3>
+              <img src="./img/event3.png" alt="piknik z innymi osobami" class="event-image">
+              </a>
+
           </div>
-        </a>
-        <a href="./subpages/talentDays.html">
-          <div class="swiper--item">
-            <!-- <h3 class="event-name">Talent Days</h3> -->
-            <img src="./img/event1.png" alt="Napis talent days" class="event-image">
+          <div class="swiper-slide">
+            <a href="./subpages/talentDays.html">
+              <img src="./img/event1.png" alt="ludzie na koncercie" class="event-image">
+              </a>
+  
           </div>
-        </a>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
     </section>
 
@@ -145,10 +159,15 @@
     <p class="footer__text"></p>
 
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=ysmMbjcp"></script>
   <script src="https://kit.fontawesome.com/53aff9a915.js" crossorigin="anonymous"></script>
   <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
   <script type="module" src="/main.js"></script>
+  <script type="module" src="./modules/Swiper/swiper.js"></script>
+  
+
+
 </body>
 
 </html>
