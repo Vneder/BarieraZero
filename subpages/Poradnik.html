@@ -12,10 +12,11 @@
 <body>
 
   <img src="../img/top.png" alt="Arrow to top" class="arrow" id="myBtn" title="Go to top">
+
   <header class="header">
     <nav class="navbar">
       <a href="../index.html">
-        <img src="../img/logo-removebg-preview.png" alt="Logo z tarczą" class="logo__img" >
+        <img src="../img/logo-removebg-preview.png" alt="Logo z tarczą" class="logo__img">
       </a>
 
       <div class="menu">
@@ -47,13 +48,13 @@
       <div class="blog__line_left-img">
         <div class="imgVoice">
           <!-- ZDJĘCIE PRAWO-->
-          <img src="../img/Woman_in_bus-8722148.png" alt="Kobieta siedząca naprzeciwko na wózku inwalidzkim"
-          class="size_picture1">
-          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
-              <img src="../img/voice.png" class="noShadow"
-                  onclick="responsiveVoice.speak('Kobieta w autobusie trzymająca się za poręcz', 'Polish Female');">
+          <img src="../img/Woman_in_bus-8722148.png" alt="Kobieta w autobusie trzymająca się za poręcz"
+            class="size_picture1">
+          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny" tabindex="0"
+            data-text="Kobieta w autobusie trzymająca się za poręcz">
+            <img src="../img/voice.png" class="noShadow">
           </button>
-      </div>
+        </div>
         <div class="blog__text">
           <li>
             <h2>Zaplanuj trasę z wyprzedzeniem</h2>
@@ -120,25 +121,26 @@
         </div>
         <div class="imgVoice">
           <!-- ZDJĘCIE PRAWO-->
-          <img src="../img/blind_men_withDog.png" alt="Kobieta siedząca naprzeciwko na wózku inwalidzkim"
-          class="size_picture1">
-          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
-              <img src="../img/voice.png" class="noShadow"
-                  onclick="responsiveVoice.speak('Mężczyzna niedowidzący w ciemnych okularach i psem przewodnikiem idący przez ulice' , 'Polish Female');">
+          <img src="../img/blind_men_withDog.png"
+            alt="Mężczyzna niedowidzący w ciemnych okularach i psem przewodnikiem idący przez ulice"
+            class="size_picture1">
+          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny" tabindex="0"
+            data-text="Mężczyzna niedowidzący w ciemnych okularach i psem przewodnikiem idący przez ulice">
+            <img src="../img/voice.png" class="noShadow">
           </button>
-      </div>
+        </div>
       </div>
 
       <div class="blog__line_left-img">
         <div class="imgVoice">
           <!-- ZDJĘCIE PRAWO-->
-          <img src="../img/Imagine Wheelchair Travel Thats Easy.jpg" alt="Kobieta siedząca naprzeciwko na wózku inwalidzkim"
-          class="size_picture1">
-          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
-              <img src="../img/voice.png" class="noShadow"
-                  onclick="responsiveVoice.speak('Kobieta  na wózku z przyczepionym z tyłu plecakiem na środku peronu', 'Polish Female');">
+          <img src="../img/Imagine Wheelchair Travel Thats Easy.jpg"
+            alt="Kobieta  na wózku z przyczepionym z tyłu plecakiem na środku peronu" class="size_picture1">
+          <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny" tabindex="0"
+            data-text="Kobieta  na wózku z przyczepionym z tyłu plecakiem na środku peronu">
+            <img src="../img/voice.png" class="noShadow">
           </button>
-      </div>
+        </div>
         <div class="blog__text">
           <li>
             <h2>Bądź czujny na otoczenie</h2>
@@ -241,11 +243,13 @@
     <p class="footer__text"></p>
 
   </footer>
-
-  <script type="module" src="../main.js"></script>
+  <script src="../utils/voiceSpeak.js"></script>
+  <script src="../main.js"></script>
+  <script type="module" src="../modules/Footer/Footer.js"></script>
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=ysmMbjcp"></script>
   <script src="https://kit.fontawesome.com/53aff9a915.js" crossorigin="anonymous"></script>
   <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
+
 </body>
 
 </html>

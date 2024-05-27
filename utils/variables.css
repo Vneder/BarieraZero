@@ -3,6 +3,8 @@
     --main-color: #ffffff;
     --second-color: #6f558e;
     --font-color: #000000;
+    --third-color: #D4C2FC;
+    --button-color: #FC814A;
 
     /* FONTS */
     --main-font: Tahoma, sans-serif;
@@ -10,7 +12,7 @@
 
     /* NEW COLORS */
 
-    --first-color: #6F558E;
+    /*--first-color: #6F558E;
     --drugi-color: #D4C2FC;
-    --button-color: #FC814A;
+    --button-color: #FC814A;*/
 }

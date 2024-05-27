@@ -62,26 +62,24 @@
                         niepełnosprawnościami, zapewniając dostępność dla osób poruszających się na wózkach, a także
                         specjalne miejsca dla osób niewidomych lub niedowidzących.</p>
                 </div>
-                <!-- ZDJĘCIE PRAWO-->
                 <div class="imgVoice">
                     <!-- ZDJĘCIE PRAWO-->
-                    <img src="../img/concert1.jpg" alt="Scena_koncertu"
-                    class="size_picture1">
-                    <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
-                        <img src="../img/voice.png" class="noShadow"
-                            onclick="responsiveVoice.speak('Scena oświetlona nocą z dwoma mikrofonami', 'Polish Female');">
+                    <img src="../img/concert1.jpg"
+                        alt="Scena oświetlona nocą z dwoma mikrofonami" class="size_picture1">
+                    <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny" tabindex="0"
+                        data-text="Scena oświetlona nocą z dwoma mikrofonami">
+                        <img src="../img/voice.png" class="noShadow">
                     </button>
                 </div>
             </div>
             <div class="blog__line_left-img">
-                <!-- ZDJĘCIE LEWO-->
                 <div class="imgVoice">
                     <!-- ZDJĘCIE PRAWO-->
-                    <img src="../img/concert2.jpg" alt="Tłum"
-                    class="size_picture1">
-                    <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
-                        <img src="../img/voice.png" class="noShadow"
-                            onclick="responsiveVoice.speak('Ludzie stojący przed odświetloną sceną z podniesionymi rękami', 'Polish Female');">
+                    <img src="../img/concert2.jpg"
+                        alt="Ludzie stojący przed odświetloną sceną z podniesionymi rękami" class="size_picture1">
+                    <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny" tabindex="0"
+                        data-text="Ludzie stojący przed odświetloną sceną z podniesionymi rękami">
+                        <img src="../img/voice.png" class="noShadow">
                     </button>
                 </div>
 
@@ -122,16 +120,16 @@
                 </div>
 
                 <!-- ZDJĘCIE PRAWO/ŚRODEK -->
-
                 <div class="imgVoice">
                     <!-- ZDJĘCIE PRAWO-->
-                    <img src="../img/concert3.jpg" alt="Widownia z oświetloną sceną i telefonami"
-                    class="size_picture2">
-                    <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny">
-                        <img src="../img/voice.png" class="noShadow"
-                            onclick="responsiveVoice.speak('Ludzie na koncercie przed oświetloną sceną. W rękach mają telefony , które nagrywają wydarzenie ', 'Polish Female');">
+                    <img src="../img/concert3.jpg"
+                        alt="Ludzie na koncercie przed oświetloną sceną. W rękach mają telefony , które nagrywają wydarzenie" class="size_picture1">
+                    <button class="voiceSpeaker" aria-label="Odtwórz tekst alternatywny" tabindex="0"
+                        data-text="Ludzie na koncercie przed oświetloną sceną. W rękach mają telefony , które nagrywają wydarzenie">
+                        <img src="../img/voice.png" class="noShadow">
                     </button>
                 </div>
+                
 
             </div>
 
@@ -198,8 +196,9 @@
         <p class="footer__text"></p>
 
     </footer>
-
+    <script src="../utils/voiceSpeak.js"></script>
     <script type="module" src="../main.js"></script>
+    <script type="module" src="../modules/Footer/Footer.js"></script>
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=ysmMbjcp"></script>
     <script src="https://kit.fontawesome.com/53aff9a915.js" crossorigin="anonymous"></script>
     <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>

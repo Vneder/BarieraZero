@@ -1,12 +1,10 @@
-
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
 
-
   autoplay: {
-    delay: 3000, // Czas opóźnienia 
+    delay: 5000, // Czas opóźnienia 
     disableOnInteraction: false, // Po false automatyczne przesuwanie slidów 
   },
 
