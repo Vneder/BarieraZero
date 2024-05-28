@@ -1,4 +1,4 @@
-.section__partners {
+/* .section__partners {
     height: auto;
     max-height: 320px;
     padding: 1.2em;
@@ -29,4 +29,40 @@
     max-width: 100%;
     height: auto;
     box-shadow: none;
+} */
+
+
+.section__partners {
+    height: auto;
+    max-height: 24em; 
+    padding: 1.2em;
+    background-color: var(--third-color);
 }
+
+.partners__title {
+    color: var(--font-color);
+    margin: 1em auto;
+    text-align: center;
+}
+
+.partners-gallery {
+    padding: 0 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dostosowanie minimalnej szerokości do 200px */
+    justify-items: center; 
+    gap: 2%; 
+    padding-bottom: 1rem;
+}
+
+.partner-item {
+    width: 100%; 
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.partner-item-img {
+    max-width: 100%; 
+    height: auto; 
+    box-shadow: none;
+}
+
