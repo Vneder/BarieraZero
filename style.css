@@ -6,12 +6,7 @@
 @import url('modules/Partners/Partners.css');
 @import url('modules/AboutUs/AboutUs.css');
 @import url('modules/Footer/Footer.css');
-@import url('mobile/media-Nav_Foot.css');
-@import url('mobile/media-Main.css');
-@import url('mobile/media-Poradnik.css');
-@import url('mobile/media-AboutUs.css');
-@import url('mobile/media-Subpages.css');
-@import url('mobile/media-Picnic.css');
+@import url('mobile/mobile.css');
 
 * {
   box-sizing: border-box;
@@ -71,4 +66,40 @@ img {
 
 .noShadow {
   box-shadow: none;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
 }

@@ -1,14 +1,17 @@
+@media only screen and (width <=480px)
+@media only screen and (width <=768px)
+@media only screen and (width <=1024px)
+
 *Do zrobienia na przyszłość*
 
-- w poradniku przycisk wyrównać
-- Wielkości poprawić we wszystkich wydarzeniach
-
-- zmienić artykuły na grida, bo ch*j mnie strzela (dorime ameno)
 - rem em
 - responsywność - zwrócić uwagę na partnerów
 
 ! Zrobione !
 
+- zmienić artykuły na grida
+- Wielkości poprawić we wszystkich wydarzeniach
+- w poradniku przycisk wyrównać
 - o nas- poprawić ul do wcięcia
 - obsługa strony samą klawiaturą - tylko funkcje dla głośniczków /done
 - mini poprawki do swipera (wielkości,usunac suwak)
