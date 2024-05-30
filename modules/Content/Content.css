@@ -105,6 +105,9 @@
     margin-bottom: 1.5em;
 } 
 */
+.main {
+    background-color: var(--main-color);
+}
 
 .section__content {
     display: grid;
@@ -120,6 +123,7 @@
 }
 
 .section__blog {
+
     color: var(--font-color);
     margin: 2rem 4rem;
 }

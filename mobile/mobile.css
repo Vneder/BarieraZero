@@ -1,7 +1,14 @@
 @media (max-width: 480px) {
+    header {
+        position: sticky;
+        z-index: 99;
+        top: 0;
+    }
+
     .navbar {
         width: 100%;
-        grid-template-columns: 1fr;
+        grid-template-columns: 10fr 1fr;
+        padding: 1em;
     }
 
     .logo__img {
@@ -10,6 +17,28 @@
 
     .menu {
         display: none;
+    }
+
+    .mobileMenu.is-active {
+        display: grid;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        transition: 1s;
+    }
+
+    .mobileMenu__divider-line {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid var(--third-color);
+        padding: 0;
+    }
+
+    .mobileMenu a {
+        color: var(--main-color);
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 0.4em 0;
     }
 
     .section__content {
@@ -25,7 +54,8 @@
 
     .section__content_text {
         padding: 1rem 0;
-        text-align: justify;
+        text-align: center;
+
     }
 
     .section__content_line {
@@ -53,6 +83,7 @@
         margin: 0 2rem;
     }
 
+
     swiper__event-title {
         font-size: 1.6rem;
         margin: 1rem auto;
@@ -77,10 +108,212 @@
         display: none;
     }
 
+    .swiper_mobile {
+        display: block;
+    }
+
     .partner-item-img {
         width: 100%;
         height: auto;
     }
+
+
+
+    .section__content h2 {
+
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    footer {
+        min-height: 500px;
+    }
+
+    .footer__text {
+        margin-top: 2.5em;
+    }
+
+    .footer__columns {
+        display: grid;
+        grid-template-areas: "bz"
+            "ad"
+            "sc";
+        gap: 3rem;
+    }
+
+
+    .footer__section-title {
+        font-size: 1.2rem !important;
+        padding-bottom: 1rem;
+    }
+
+    .footer__socials {
+        grid-area: sc;
+    }
+
+    .footer__section-tree {
+        grid-area: bz;
+    }
+
+    .footer__section-tree,
+    .footer__section-adress {
+        width: 70vw;
+    }
+
+    .footer__section-adress {
+        grid-area: ad;
+    }
+
+    /* KONIEC INDEXU */
+
+
+
+
+
+
+
+
+    .section__blog {
+        margin: 1em 1em;
+
+    }
+
+
+    .section__blog a {
+        text-decoration: none;
+    }
+
+
+    .section__blog .button {
+
+        display: grid;
+        place-items: center;
+
+        margin: 1em auto;
+
+
+    }
+
+    .section__blog p {
+        font-size: 1em !important;
+    }
+
+
+    .blog__line_right-img,
+    .blog__line_left-img {
+        display: grid;
+        grid-template-areas: "iv"
+            "bt";
+        width: 100%;
+        margin: 1em auto;
+    }
+
+    .blog__text {
+        grid-area: bt;
+    }
+
+    .imgVoice {
+        grid-area: iv;
+        margin: 1rem auto 2rem;
+    }
+
+    .blog__line_right-img img {
+
+        width: 19em;
+        height: 23.5rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 15px 15px 12px;
+    }
+
+    .blog__text {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: 1em auto;
+        text-align: center;
+        text-wrap: wrap;
+    }
+    
+    .blog__text h1 {
+
+        text-align: center;
+
+    }
+
+    .blog__event-time {
+        width: 90%;
+        margin: 1em auto;
+        text-align: center;
+        line-height: 200%;
+    }
+
+    .blog__event-time .button {
+        margin: 1em auto;
+    }
+
+    .voiceSpeaker {
+        position: absolute;
+        left: 30px !important;
+    }
+
+    img.noShadow {
+        width: 100%;
+        height: 100%;
+    }
+
+    img.size_picture1 {
+        width: 340px;
+        height: 410px;
+    }
+
+    .blog__text li {
+        margin-top: 2.5em;
+    }
+
+
+    .underline-paragraph {
+        margin: 1em 2em;
+        padding: 1rem 0;
+        text-align: center;
+
+    }
+
+    .section__aboutUs {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        padding: 1em 0.8em;
+
+    }
+
+    .section__aboutUs a {
+        text-align: center;
+    }
+
+    .section__aboutUs .button {
+        text-align: center;
+        margin: 1em auto;
+
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .arrow {
+        width: 3.125rem;
+        height: 3.125rem;
+
+    }
+
+    .voiceSpeaker {
+        width: 3.125rem;
+        height: 3.125rem;
+
+    }
+
+    .mapa {
+        width: 24.375rem;
+    }
+
 
 }
 

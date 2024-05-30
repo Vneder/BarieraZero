@@ -18,8 +18,6 @@
     background-color: var(--third-color);
     padding: 1.5em 6em;
     list-style-position: inside;
-
-    /* Dodatkowe ustawienia grid, jeśli potrzebujesz precyzyjnie zdefiniować rzędy */
     grid-template-rows: auto auto auto;
 
 }

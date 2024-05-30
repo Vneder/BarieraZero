@@ -15,17 +15,20 @@
     padding: 1.8em 4.3em;
 }
 
-.swiper{
+.swiper {
     width: 50%;
     height: 35em;
 }
 
-.swiper-slide{
+.swiper-slide {
     font-size: 30px;
 }
 
-.swiper-slide a{
-   text-decoration: none;
-   color: black;
+.swiper-slide a {
+    text-decoration: none;
+    color: black;
 }
 
+.swiper_mobile {
+    display: none;
+}

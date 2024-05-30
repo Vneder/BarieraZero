@@ -43,27 +43,32 @@
 
 header {
     display: grid;
-    grid-template-rows: auto; /* Automatyczna wysokość */
+    grid-template-rows: auto;
+    /* Automatyczna wysokość */
     text-align: center;
     background-color: var(--second-color);
-   
 }
 
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Logo, menu*/
-    align-items: center; /* Środkowanie zawartości w pionie */
+    grid-template-columns: 1fr 2fr;
+    /* Logo, menu*/
+    align-items: center;
+    /* Środkowanie zawartości w pionie */
     padding: 1em 1.6em;
     font-size: 1.2rem;
-    width: 90%;  
-    
+    width: 90%;
+
 }
+
 .menu ul {
     display: grid;
-    grid-auto-flow: column; /* Automatyczny przepływ kolumn */
+    grid-auto-flow: column;
+    /* Automatyczny przepływ kolumn */
     gap: 3em;
     list-style: none;
-    justify-content: end; /* Wyrównanie do końca */
+    justify-content: end;
+    /* Wyrównanie do końca */
 }
 
 .menu a {

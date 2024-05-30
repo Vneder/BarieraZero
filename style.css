@@ -1,5 +1,6 @@
 @import url('utils/variables.css');
 @import url('utils/button.css');
+@import url('utils/hamburgers.css');
 @import url('modules/Header/Header.css');
 @import url('modules/Content/Content.css');
 @import url('modules/Swiper/Swiper.css');
@@ -15,6 +16,7 @@
 }
 
 body {
+  background-color: var(--second-color);
   font-family: var(--main-font);
   color: var(--main-color);
 }
@@ -102,4 +104,8 @@ img {
 .menu-button::after {
   content: '';
   margin-top: 8px;
+}
+
+.mobileMenu {
+  display: none;
 }

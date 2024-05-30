@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <title>Bariera Zero - Piknik</title>
 </head>
 
@@ -17,7 +18,11 @@
             <a href="../index.html">
                 <img src="../img/logo-removebg-preview.png" alt="Logo z tarczą" class="logo__img">
             </a>
-
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
             <div class="menu">
                 <ul>
                     <li><a href="../index.html">Strona główna</a></li>
@@ -26,6 +31,14 @@
                 </ul>
             </div>
         </nav>
+        <div class="mobileMenu">
+            <hr class="mobileMenu__divider-line">
+            <a href="../index.html">Strona główna</a>
+            <hr class="mobileMenu__divider-line">
+            <a href="./Poradnik.html">Poradnik komunikacyjny</a>
+            <hr class="mobileMenu__divider-line">
+            <a href="./aboutUs.html">O nas</a>
+        </div>
     </header>
 
     <main class="main">
@@ -158,6 +171,27 @@
                     <img src="../img/partner3.png" alt="Przykładowe logo partnera" class="partner-item-img">
                 </div>
             </div>
+            <div class="swiper_mobile">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="../img/partner1.png" alt="Przykładowe logo partnera" class="partner-item-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/partner2.png" alt="Przykładowe logo partnera" class="partner-item-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/partner3.png" alt="Przykładowe logo partnera" class="partner-item-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/partner4.png" alt="Przykładowe logo partnera" class="partner-item-img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../img/partner5.png" alt="Przykładowe logo partnera" class="partner-item-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -206,14 +240,15 @@
         <p class="footer__text"></p>
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="../modules/Swiper/swiper.js"></script>
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=ysmMbjcp"></script>
     <script src="../main.js"></script>
     <script src="../utils/voiceSpeak.js"></script>
     <script type="module" src="../modules/Footer/Footer.js"></script>
     <script src="https://kit.fontawesome.com/53aff9a915.js" crossorigin="anonymous"></script>
     <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
-
+    <script src="../utils/mobileMenu.js"></script>
 </body>
 
 </html>

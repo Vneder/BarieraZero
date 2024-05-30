@@ -4,11 +4,11 @@
 
 *Do zrobienia na przyszłość*
 
-- rem em
-- responsywność - zwrócić uwagę na partnerów
+- responsywność tabletów i mniejszych ekranów
 
 ! Zrobione !
 
+- rem em
 - zmienić artykuły na grida
 - Wielkości poprawić we wszystkich wydarzeniach
 - w poradniku przycisk wyrównać

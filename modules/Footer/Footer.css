@@ -52,9 +52,9 @@
 
 footer {
     display: grid;
-    grid-template-rows: repeat(3, auto); /* Trzy wiersze, każdy dostosowuje się do zawartości */
-    justify-items: center; /* Środkowanie zawartości w wierszach */
-    align-items: center; /* Środkowanie zawartości w kolumnach */
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    align-items: center;
     min-height: 240px;
     background-color: var(--second-color);
     padding: 1rem;
@@ -63,22 +63,22 @@ footer {
 .footer__columns {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr)); /* Dostosowanie kolumn */
-    justify-items: center; 
+    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+    justify-items: center;
     padding-top: 0.7em;
 }
 
 .footer__section-tree,
 .footer__section-adress {
     display: grid;
-    grid-template-rows: auto; /* Każdy element w nowym wierszu */
+    grid-template-rows: auto;
     font-size: 1.2em;
     font-style: normal;
-    width: 20vw; 
+    width: 20vw;
 }
 
 .footer__section-title {
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 1px solid var(--third-color);
     margin-bottom: 0.7em;
     text-align: center;
 }
@@ -95,11 +95,11 @@ footer {
 
 .footer__socials {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Dostosowanie kolumn, minimalna szerokość 50px */
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1.2em;
-    justify-items: center; 
+    justify-items: center;
     align-items: center;
-  
+
 }
 
 .socials-icon {
