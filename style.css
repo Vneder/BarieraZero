@@ -10,6 +10,7 @@
 @import url('mobile/mobile.css');
 @import url('mobile/tablet.css');
 @import url('mobile/laptop.css');
+@import url('mobile/bigscreen.css');
 
 * {
   box-sizing: border-box;
