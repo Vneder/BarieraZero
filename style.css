@@ -9,6 +9,7 @@
 @import url('modules/Footer/Footer.css');
 @import url('mobile/mobile.css');
 @import url('mobile/tablet.css');
+@import url('mobile/laptop.css');
 
 * {
   box-sizing: border-box;
@@ -52,13 +53,15 @@ img {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .voiceSpeaker {
-  position: absolute;
-  top: 0;
-  /* W przypadku problemu usuniemy lefta i bedzie git */
-  left: 25%;
+  position: relative;
+  z-index: 98;
+  left: -11rem;
+  top: -39.5rem;
   border: none;
   padding: 0;
   margin: 4px;

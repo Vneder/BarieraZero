@@ -1,5 +1,4 @@
-@media (max-width: 768px) {
-
+@media (max-width: 1024px) {
     header {
         position: sticky;
         z-index: 99;
@@ -76,7 +75,7 @@
     .swiper {
         width: 100%;
         height: auto;
-        margin: 0 auto 2rem;
+        margin: 0 auto 1rem;
     }
 
     .swiper-button-prev,
@@ -110,12 +109,16 @@
 
     .swiper_mobile {
         display: block;
+        margin: 0 auto;
+    }
+
+    .swiper-slide {
+        text-align: center;
     }
 
     .partner-item-img {
-        width: 10em;
-        height: 10em;
-
+        width: 12em;
+        height: auto;
     }
 
     .section__content h2 {
@@ -124,7 +127,7 @@
     }
 
     footer {
-        min-height: 500px;
+        min-height: 300px;
     }
 
     .footer__text {
@@ -133,12 +136,10 @@
 
     .footer__columns {
         display: grid;
-        grid-template-areas: "bz"
-            "ad"
-            "sc";
+        grid-template-areas: "bz ad"
+            "sc sc";
         gap: 3rem;
     }
-
 
     .footer__section-title {
         font-size: 1.2rem !important;
@@ -155,7 +156,7 @@
 
     .footer__section-tree,
     .footer__section-adress {
-        width: 70vw;
+        width: 35vw;
     }
 
     .footer__section-adress {
@@ -195,6 +196,7 @@
     }
 
     .imgVoice {
+        display: grid;
         grid-area: iv;
         margin: 1rem auto 2rem;
     }
@@ -222,6 +224,15 @@
 
     .blog__event-time .button {
         margin: 1em auto;
+    }
+
+    .voiceSpeaker {
+        position: relative;
+        z-index: 98;
+        left: -7rem !important;
+        top: -27rem !important;
+        width: 3.125rem;
+        height: 3.125rem;
     }
 
     img.noShadow {
@@ -271,15 +282,11 @@
         height: 3.125rem;
     }
 
-    .voiceSpeaker {
-        width: 3.125rem;
-        height: 3.125rem;
-    }
+
 
     .mapa {
         margin: 0 auto;
         width: 20rem;
         height: 20rem;
     }
-
 }

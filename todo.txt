@@ -1,19 +1,15 @@
-@media only screen and (width <=480px)
-@media only screen and (width <=768px)
-@media only screen and (width <=1024px)
-
 *Do zrobienia na przyszłość*
 
+event time tekst idzie za daleko
+wielkość 1440 max - partners
+
+! Zrobione !
+
+- responsywność tabletów i mniejszych ekranów
 zdjecia
 mapa
 wydarzeniac
 o nas
-
-
-- responsywność tabletów i mniejszych ekranów
-
-! Zrobione !
-
 - rem em
 - zmienić artykuły na grida
 - Wielkości poprawić we wszystkich wydarzeniach

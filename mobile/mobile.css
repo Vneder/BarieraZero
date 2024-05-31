@@ -83,8 +83,7 @@
         margin: 0 2rem;
     }
 
-
-    swiper__event-title {
+    .swiper__event-title {
         font-size: 1.6rem;
         margin: 1rem auto;
         font-weight: normal;
@@ -117,10 +116,7 @@
         height: auto;
     }
 
-
-
     .section__content h2 {
-
         text-align: center;
         padding: 2rem 0;
     }
@@ -164,64 +160,41 @@
         grid-area: ad;
     }
 
-    /* KONIEC INDEXU */
-
-
-
-
-
-
-
-
     .section__blog {
         margin: 1em 1em;
-
     }
-
 
     .section__blog a {
         text-decoration: none;
     }
 
-
     .section__blog .button {
-
         display: grid;
         place-items: center;
-
         margin: 1em auto;
-
-
     }
 
     .section__blog p {
         font-size: 1em !important;
     }
 
-
     .blog__line_right-img,
     .blog__line_left-img {
         display: grid;
         grid-template-areas: "iv"
             "bt";
-        width: 100%;
+        /* width: 100%; */
         margin: 1em auto;
     }
 
     .blog__text {
+        padding: 0 1em;
         grid-area: bt;
     }
 
     .imgVoice {
         grid-area: iv;
         margin: 1rem auto 2rem;
-    }
-
-    .blog__line_right-img img {
-
-        width: 19em;
-        height: 23.5rem;
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 15px 15px 12px;
     }
 
     .blog__text {
@@ -238,7 +211,8 @@
     }
 
     .blog__event-time {
-        width: 90%;
+        padding: 3rem;
+        width: 86%;
         margin: 1em auto;
         text-align: center;
         line-height: 200%;
@@ -248,19 +222,14 @@
         margin: 1em auto;
     }
 
-    .voiceSpeaker {
-        position: absolute;
-        left: 2.2rem !important;
-    }
-
     img.noShadow {
         width: 100%;
         height: 100%;
     }
 
-    img.size_picture1 {
-        width: 20rem;
-        /* height: 25.625rem; */
+    img.size_picture1,
+    img.size_picture2 {
+        width: 18rem;
         height: auto;
     }
 
@@ -268,12 +237,10 @@
         margin-top: 2.5em;
     }
 
-
     .underline-paragraph {
         margin: 1em 2em;
         padding: 1rem 0;
         text-align: center;
-
     }
 
     .section__aboutUs {
@@ -287,7 +254,6 @@
     .section__aboutUs .button {
         text-align: center;
         margin: 1em auto;
-
     }
 
     .map {
@@ -309,8 +275,4 @@
         width: 20rem;
         height: 20rem;
     }
-
-
 }
-
-@media (max-width: 768px) {}
