@@ -4,6 +4,12 @@
 
 *Do zrobienia na przyszłość*
 
+zdjecia
+mapa
+wydarzeniac
+o nas
+
+
 - responsywność tabletów i mniejszych ekranów
 
 ! Zrobione !

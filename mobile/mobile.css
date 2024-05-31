@@ -232,11 +232,9 @@
         text-align: center;
         text-wrap: wrap;
     }
-    
+
     .blog__text h1 {
-
         text-align: center;
-
     }
 
     .blog__event-time {
@@ -252,7 +250,7 @@
 
     .voiceSpeaker {
         position: absolute;
-        left: 30px !important;
+        left: 2.2rem !important;
     }
 
     img.noShadow {
@@ -261,8 +259,9 @@
     }
 
     img.size_picture1 {
-        width: 340px;
-        height: 410px;
+        width: 20rem;
+        /* height: 25.625rem; */
+        height: auto;
     }
 
     .blog__text li {
@@ -278,10 +277,7 @@
     }
 
     .section__aboutUs {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        padding: 1em 0.8em;
-
+        padding: 3rem 3rem;
     }
 
     .section__aboutUs a {
@@ -301,17 +297,17 @@
     .arrow {
         width: 3.125rem;
         height: 3.125rem;
-
     }
 
     .voiceSpeaker {
         width: 3.125rem;
         height: 3.125rem;
-
     }
 
     .mapa {
-        width: 24.375rem;
+        margin: 0 auto;
+        width: 20rem;
+        height: 20rem;
     }
 
 
