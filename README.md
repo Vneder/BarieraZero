@@ -61,8 +61,7 @@ Strona zawiera moduł dostępności, który umożliwia użytkownikom dostosowani
 index.html
 ├── o-nas.html
 ├── poradnik-komunikacyjny.html
-└── wydarzenia/
-    ├── koncert.html
+└── ├── koncert.html
     ├── piknik.html
     └── talent-days.html
 ```
@@ -87,7 +86,7 @@ index.html
 ### Piknik: 
 - Informacje o pikniku organizowanym przez twórców strony, w tym data, miejsce i plan wydarzenia.
 ### Talent Days: 
-- Szczegóły dotyczące dni talentów, w tym harmonogram, uczestnicy i atrakcje.
+- Szczegóły dotyczące wydarzenia.
 ### Koncert: 
 - Informacje o koncercie, w tym lista wykonawców, godziny występów i lokalizacja.
 
