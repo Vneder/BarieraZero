@@ -1,3 +1,5 @@
+// Skrypt odpowiedzialny za obsługę swipera
+
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
@@ -8,7 +10,7 @@ const swiper = new Swiper('.swiper', {
     disableOnInteraction: false, // Po false automatyczne przesuwanie slidów 
   },
 
-  // If we need pagination
+
   pagination: {
     el: '.swiper-pagination',
   },

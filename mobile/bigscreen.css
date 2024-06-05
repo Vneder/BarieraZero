@@ -1,3 +1,5 @@
+/* Modyfikację styli dla ekranów poniej 1440px - czyli głównie dla mniejszych laptopów */
+
 @media (max-width: 1440px) {
     .navbar {
         width: 100%;
@@ -100,7 +102,6 @@
     }
 
     .footer__columns {
-        display: grid;
         grid-template-areas: "bz ad"
             "sc sc";
         gap: 3rem;
@@ -129,7 +130,7 @@
     }
 
     .section__blog {
-        margin: 1em 1em;
+        margin: 1em;
     }
 
     .section__blog a {
@@ -159,14 +160,12 @@
         text-wrap: wrap;
     }
 
-
     .blog__text h1 {
         text-align: center;
     }
 
     .blog__event-time {
         padding: 3rem;
-        width: 86%;
         margin: 1em auto;
         text-align: center;
         line-height: 200%;
@@ -224,14 +223,15 @@
         width: 100%;
     }
 
-    .arrow {
-        width: 3.125rem;
-        height: 3.125rem;
-    }
-
     .mapa {
         margin: 0 auto;
         width: 50rem;
         height: 40rem;
     }
+
+    .arrow {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
 }

@@ -1,14 +1,4 @@
-/* 
-.section__aboutUs {
-    display: flex;
-    flex-direction: column;
-    gap: 2.8em;
-    font-size: 1.5rem;
-    color: var(--font-color);
-    background-color: var(--third-color);
-    padding: 1.5em 6em;
-}
- */
+/* Style odpowiedzialne za stronę "o nas" */
 
 .section__aboutUs {
     display: grid;
@@ -19,5 +9,4 @@
     padding: 1.5em 6em;
     list-style-position: inside;
     grid-template-rows: auto auto auto;
-
 }

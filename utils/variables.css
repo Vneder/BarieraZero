@@ -1,3 +1,5 @@
+/* Style ze zmeinnymi do kolorów i czcionek */
+
 :root {
     /* COLORS */
     --main-color: #ffffff;
@@ -10,9 +12,4 @@
     --main-font: Tahoma, sans-serif;
     --second-font: Arial, sans-serif;
 
-    /* NEW COLORS */
-
-    /*--first-color: #6F558E;
-    --drugi-color: #D4C2FC;
-    --button-color: #FC814A;*/
 }

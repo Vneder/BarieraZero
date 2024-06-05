@@ -7,10 +7,10 @@
 @import url('modules/Partners/Partners.css');
 @import url('modules/AboutUs/AboutUs.css');
 @import url('modules/Footer/Footer.css');
-@import url('mobile/mobile.css');
-@import url('mobile/tablet.css');
-@import url('mobile/laptop.css');
 @import url('mobile/bigscreen.css');
+@import url('mobile/laptop.css');
+@import url('mobile/tablet.css');
+@import url('mobile/mobile.css');
 
 * {
   box-sizing: border-box;

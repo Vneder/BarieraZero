@@ -1,3 +1,5 @@
+// Skrypt odpowiedzialny za czytanie tekstu po zaznaczeniu oraz za działanie przycisku, który za pomocą dźwięku opisuje zdjęcie
+
 document.addEventListener('DOMContentLoaded', function () {
     // Funkcja do odtwarzania tekstu z atrybutu data-text
     function speakText(event) {

@@ -1,23 +1,17 @@
-<h1 alig="center">
-  <p align="center">
-     BarieraZero
-  </p>
-</h1>
-- [Live](#live)
-- [Technologies](#technologies)
-- [General info](#general-info)
-
 ## Live
-<h3> https://vneder.github.io/BarieraZero/ </h3>
 
-## Technologies
+### https://vneder.github.io/BarieraZero/
 
-Project is created with:
+## Technologie:
 
-- HTML
-- CSS
-- JavaScript (modules)
+> - HTML
+> - CSS
+> - JAVASCRIPT
+
+- Widget dostępności Sienna: https://accessibility-widget.pages.dev/
+- Swiper: https://swiperjs.com/
+- Ikonki społecznościowe: https://fontawesome.com/
+- Skrypt odpowiedzialny za czytanie tekstu z strony, po wciśnięciu przycisku: https://responsivevoice.org/
+- Hamburger: https://github.com/jonsuh/hamburgers/tree/master
 
 ## General info
-
-

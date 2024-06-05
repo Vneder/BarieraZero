@@ -1,134 +1,16 @@
+/* Modyfikację styli dla ekranów ponizej 768px - czyli dla duzych telefonow oraz tabletów */
 @media (max-width: 768px) {
-
-    header {
-        position: sticky;
-        z-index: 99;
-        top: 0;
-    }
-
-    .navbar {
-        width: 100%;
-        grid-template-columns: 10fr 1fr;
-        padding: 1em;
-    }
-
-    .logo__img {
-        margin: 0 auto;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .mobileMenu.is-active {
-        display: grid;
-        gap: 1rem;
-        padding-bottom: 1rem;
-        transition: 1s;
-    }
-
-    .mobileMenu__divider-line {
-        display: block;
-        height: 1px;
-        border: 0;
-        border-top: 1px solid var(--third-color);
-        padding: 0;
-    }
-
-    .mobileMenu a {
-        color: var(--main-color);
-        text-decoration: none;
-        font-size: 1.5rem;
-        margin: 0.4em 0;
-    }
-
-    .section__content {
-        padding: 1rem 1.2rem;
-        gap: 1.5rem;
-        padding-bottom: 3rem;
-    }
-
-    .section__content_title-paragraph {
-        font-size: 1em;
-        margin: auto 2rem;
-    }
-
-    .section__content_text {
-        padding: 1rem 0;
-        text-align: center;
-
-    }
-
-    .section__content_line {
-        width: 70%;
-    }
-
-    .section__swiper-title {
-        padding: 1rem 3rem;
-        margin: 3rem auto;
-    }
-
-    .event-image {
-        height: 16rem;
-        width: 16rem;
-    }
-
     .swiper {
-        width: 100%;
-        height: auto;
         margin: 0 auto 2rem;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-        margin: 0 2rem;
-    }
-
-    .swiper__event-title {
-        font-size: 1.6rem;
-        margin: 1rem auto;
-        font-weight: normal;
-    }
-
-    .swiper-wrapper {
-        padding-bottom: 3rem;
-    }
-
-    .section__partners {
-        max-height: max-content;
-        padding: 0;
-    }
-
-    .partners__title {
-        margin: 3rem auto 0;
-        font-size: 1.8rem;
-    }
-
-    .partners-gallery {
-        display: none;
-    }
-
-    .swiper_mobile {
-        display: block;
     }
 
     .partner-item-img {
         width: 10em;
         height: 10em;
-
-    }
-
-    .section__content h2 {
-        text-align: center;
-        padding: 2rem 0;
     }
 
     footer {
         min-height: 500px;
-    }
-
-    .footer__text {
-        margin-top: 2.5em;
     }
 
     .footer__columns {
@@ -136,21 +18,6 @@
         grid-template-areas: "bz"
             "ad"
             "sc";
-        gap: 3rem;
-    }
-
-
-    .footer__section-title {
-        font-size: 1.2rem !important;
-        padding-bottom: 1rem;
-    }
-
-    .footer__socials {
-        grid-area: sc;
-    }
-
-    .footer__section-tree {
-        grid-area: bz;
     }
 
     .footer__section-tree,
@@ -158,128 +25,10 @@
         width: 70vw;
     }
 
-    .footer__section-adress {
-        grid-area: ad;
-    }
-
-    .section__blog {
-        margin: 1em 1em;
-    }
-
-    .section__blog a {
-        text-decoration: none;
-    }
-
-    .section__blog .button {
-        display: grid;
-        place-items: center;
-        margin: 1em auto;
-    }
-
-    .section__blog p {
-        font-size: 1em !important;
-    }
-
-    .blog__line_right-img,
-    .blog__line_left-img {
-        display: grid;
-        grid-template-areas: "iv"
-            "bt";
-        /* width: 100%; */
-        margin: 1em auto;
-    }
-
     .blog__text {
-        padding: 0 1em;
-        grid-area: bt;
-    }
-
-    .imgVoice {
-        grid-area: iv;
-        margin: 1rem auto 2rem;
-    }
-
-    .blog__text {
-        display: grid;
-        grid-template-columns: 1fr;
         width: 100%;
         margin: 1em auto;
         text-align: center;
         text-wrap: wrap;
     }
-
-    .blog__text h1 {
-        text-align: center;
-    }
-
-    .blog__event-time {
-        padding: 3rem;
-        width: 86%;
-        margin: 1em auto;
-        text-align: center;
-        line-height: 200%;
-    }
-
-    .blog__event-time .button {
-        margin: 1em auto;
-    }
-
-    img.noShadow {
-        width: 100%;
-        height: 100%;
-    }
-
-    img.size_picture1 {
-        width: 18rem;
-        height: auto;
-    }
-
-    img.size_picture2 {
-        width: 18rem;
-        height: auto;
-    }
-
-    .blog__text li {
-        margin-top: 2.5em;
-    }
-
-    .underline-paragraph {
-        margin: 1em 2em;
-        padding: 1rem 0;
-        text-align: center;
-    }
-
-    .section__aboutUs {
-        padding: 3rem 3rem;
-    }
-
-    .section__aboutUs a {
-        text-align: center;
-    }
-
-    .section__aboutUs .button {
-        text-align: center;
-        margin: 1em auto;
-    }
-
-    .map {
-        width: 100%;
-    }
-
-    .arrow {
-        width: 3.125rem;
-        height: 3.125rem;
-    }
-
-    .voiceSpeaker {
-        width: 3.125rem;
-        height: 3.125rem;
-    }
-
-    .mapa {
-        margin: 0 auto;
-        width: 20rem;
-        height: 20rem;
-    }
-
 }

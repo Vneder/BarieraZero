@@ -1,3 +1,5 @@
+// Skrypt odpowiedzialny za działanie burgera menu
+
 const hamburger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector(".mobileMenu");
 

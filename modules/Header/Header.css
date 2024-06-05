@@ -1,50 +1,8 @@
-/* header {
-    display: flex;
-    height: auto;
-    text-align: center;
-    background-color: var(--second-color);
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 1.6em;
-    font-size: 1.2rem;
-    width: 100%;
-    margin-right: 8rem;
-}
-
-.menu ul {
-    display: flex;
-    flex-direction: row;
-    gap: 4em;
-    list-style: none;
-}
-
-.menu a {
-    text-decoration: none;
-    color: var(--main-color);
-    transition: 0.3s ease;
-
-}
-
-.menu a:hover {
-    color: rgb(100, 165, 230);
-
-}
-
-.logo__img {
-    width: 14em;
-    margin-left: 8rem;
-    box-shadow: none;
-} */
+/* Style odpowiedzialne za nagłówek i menu strony */
 
 header {
     display: grid;
     grid-template-rows: auto;
-    /* Automatyczna wysokość */
     text-align: center;
     background-color: var(--second-color);
 }
@@ -52,13 +10,10 @@ header {
 .navbar {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    /* Logo, menu*/
     align-items: center;
-    /* Środkowanie zawartości w pionie */
     padding: 1em 1.6em;
     font-size: 1.2rem;
     width: 90%;
-
 }
 
 .menu ul {

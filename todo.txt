@@ -1,10 +1,10 @@
 *Do zrobienia na przyszłość*
 
-event time tekst idzie za daleko
-wielkość 1440 max - partners
 
 ! Zrobione !
 
+event time tekst idzie za daleko
+wielkość 1440 max - partners
 - responsywność tabletów i mniejszych ekranów
 zdjecia
 mapa
